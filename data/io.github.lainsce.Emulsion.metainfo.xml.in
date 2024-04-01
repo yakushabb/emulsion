@@ -45,7 +45,7 @@
     <translation type="gettext">io.github.lainsce.Emulsion</translation>
     <releases>
         <release version="3.3.0" date="2022-04-20">
-            <description>
+            <description translate="no">
                 <p>Release: Tween of Myself</p>
                 <ul>
                     <li>Changed: UI now follows my own style that complements that of Adwaita, called Solo.</li>
@@ -53,39 +53,39 @@
             </description>
         </release>
         <release version="3.2.2" date="2022-02-11">
-            <description>
+            <description translate="no">
                 <p>Release: Folks with Magik Colors</p>
                 <p>Changed: UI colors.</p>
             </description>
         </release>
         <release version="3.2.1" date="2021-12-07">
-            <description>
+            <description translate="no">
                 <p>Release: Marshmallow Easel Window</p>
                 <p>Added: The option to name your colors.</p>
             </description>
         </release>
         <release version="3.2.0" date="2021-11-28">
-            <description>
+            <description translate="no">
                 <p>Release: Rollercolor</p>
                 <p>Changed: Highly experimental UI.</p>
                 <p>Changed: Using even more libadwaita-isms.</p>
             </description>
         </release>
         <release version="3.1.0" date="2021-10-22">
-            <description>
+            <description translate="no">
                 <p>Release: When the Prism Grows in your Garden</p>
                 <p>Changed: The user interface is now better layoutted.</p>
                 <p>Changed: Using more libadwaita-isms.</p>
             </description>
         </release>
         <release version="2.0.1" date="2021-08-18">
-            <description>
+            <description translate="no">
                 <p>Release: Picking Flowers in Technicolor</p>
                 <p>Add: Color picking from anywhere as a palette is open, via a button.</p>
             </description>
         </release>
         <release version="2.0.0" date="2021-05-07">
-            <description>
+            <description translate="no">
                 <p>Release: Importin' &amp; Exportin'</p>
                 <p>Add: Export palettes as PNGs or as text via clipboard.</p>
                 <p>Add: Export single colors as hexcode (#xxxxxx) or RGBA (rgb(xx,xx,xx)) via clipboard.</p>
@@ -93,7 +93,7 @@
             </description>
         </release>
         <release version="1.0.0" date="2021-05-02">
-            <description>
+            <description translate="no">
                 <p>Release: First Release</p>
             </description>
         </release>
