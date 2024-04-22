@@ -47,7 +47,7 @@
             <property name="spacing">6</property>
             <child>
               <object class="GtkButton" id="back_button">
-                <property name="label">Palettes</property>
+                <property name="label" translatable="yes">Palettes</property>
                 <property name="tooltip-text" translatable="yes">Go back to palettes</property>
                 <style>
                   <class name="view-title"/>

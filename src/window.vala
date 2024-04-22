@@ -276,7 +276,7 @@ namespace Emulsion {
                 }
 
                 var a = new PaletteInfo ();
-                a.palname = "New Palette %d".printf(uid_counter++);
+                a.palname = _("New Palette %d").printf(uid_counter++);
                 a.colors = new Gee.HashMap<string, string> ();
 
                 for (int i = 0; i < n.length; i++) {
@@ -292,7 +292,7 @@ namespace Emulsion {
 
                 var a = new ColorInfo ();
                 a.color = rc;
-                a.name = "Color %d".printf(rand.int_range(1, 255));
+                a.name = _("Color %d").printf(rand.int_range(1, 255));
 
                 var pitem = palettestore.get_item (palette_model.get_selected ());
                 a.uid = ((PaletteInfo)pitem).palname;
