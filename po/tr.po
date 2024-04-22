@@ -1,0 +1,212 @@
+# Turkish translation of io.github.lainsce.Emulsion.
+# Copyright (C) 2024 io.github.lainsce.Emulsion COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.github.lainsce.Emulsion package.
+#
+# Sabri Ünal <libreajans@gmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.github.lainsce.Emulsion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-22 19:44+0300\n"
+"PO-Revision-Date: 2024-04-22 19:44+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: data/io.github.lainsce.Emulsion.desktop.in:3
+msgid "Emulsion"
+msgstr "Emulsion"
+
+#: data/io.github.lainsce.Emulsion.desktop.in:6
+msgid "color;palette;library;hue;swatch;"
+msgstr "renk;palet;kitaplık;renk tonu;renk örneği;"
+
+#: data/io.github.lainsce.Emulsion.metainfo.xml.in:7
+msgid "Stock up on colors"
+msgstr "Renkleri stoklayın"
+
+#: data/io.github.lainsce.Emulsion.metainfo.xml.in:9
+msgid "Store your palettes in an easy way, and edit them if needed."
+msgstr "Paletlerinizi kolayca depolayp düzenleyin."
+
+#: data/io.github.lainsce.Emulsion.gschema.xml:6
+msgid "First Boot"
+msgstr "İlk Çizme"
+
+#: data/io.github.lainsce.Emulsion.gschema.xml:7
+msgid "Whether to add the default palettes on first boot or not."
+msgstr "İlk açılışta öntanımlı paletlerin eklenme durumu."
+
+#: data/io.github.lainsce.Emulsion.gschema.xml:11
+msgid "Migration Version"
+msgstr "Göç Sürümü"
+
+#: data/io.github.lainsce.Emulsion.gschema.xml:12
+msgid "The version of migration to use; Do not change."
+msgstr "Kullanılacak göç sürümü; Değiştirmeyin!"
+
+#: data/ui/cep.ui:47
+msgid "RGB"
+msgstr "RGB"
+
+#: data/ui/cep.ui:66
+msgid "Red∶"
+msgstr "Kırmızı:"
+
+#: data/ui/cep.ui:85
+msgid "Green∶"
+msgstr "Yeşil:"
+
+#: data/ui/cep.ui:104
+msgid "Blue∶"
+msgstr "Mavi:"
+
+#: data/ui/cep.ui:121
+msgid "Hex"
+msgstr "Onaltılık"
+
+#: data/ui/cep.ui:141
+msgid "Color Hexcode∶"
+msgstr "Onaltılı Renk Kodu∶"
+
+#: data/ui/cep.ui:176
+msgid "Color Name"
+msgstr "Renk Adı"
+
+#: data/ui/color_menu.ui:6
+msgid "Copy Hexcode to Clipboard"
+msgstr "Onaltılık Kodu Panoya Kopyala"
+
+#: data/ui/color_menu.ui:10
+msgid "Copy RGB to Clipboard"
+msgstr "RGB Kodu Panoya Kopyala"
+
+#: data/ui/color_menu.ui:16
+msgid "Remove Color from Palette"
+msgstr "Rengi Paletten Kaldır"
+
+#: data/ui/keys.ui:12
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: data/ui/keys.ui:16
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: data/ui/menu.ui:7
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: data/ui/menu.ui:11
+msgid "About Emulsion"
+msgstr "Emulsion Hakkında"
+
+#: data/ui/palet_menu.ui:6
+msgid "Copy Palette to Clipboard"
+msgstr "Paleti Panoya Kopyala"
+
+#: data/ui/palet_menu.ui:10
+msgid "Copy Palette Image to Clipboard"
+msgstr "Palet Görüntüsünü Panoya Kopyala"
+
+#: data/ui/palet_menu.ui:16
+msgid "Remove Palette"
+msgstr "Paleti Kaldır"
+
+#: data/ui/pid.ui:30
+msgid "Cancel"
+msgstr "İptal"
+
+#: data/ui/pid.ui:36
+msgid "Import Palette"
+msgstr "Paleti İçe Aktar"
+
+#: data/ui/pid.ui:58
+msgid "Choose image"
+msgstr "Görüntü seç"
+
+#: data/ui/pid.ui:84
+msgid "Select an image to retrieve colors"
+msgstr "Renklerini almak için görüntü seç"
+
+#: data/ui/window.ui:38
+msgid "Search palette names"
+msgstr "Palet adı ara"
+
+#: data/ui/window.ui:50
+msgid "Palettes"
+msgstr "Paletler"
+
+#: data/ui/window.ui:51
+msgid "Go back to palettes"
+msgstr "Paletlere geri dön"
+
+#: data/ui/window.ui:66
+msgid "Edit palette name"
+msgstr "Palet adını düzenle"
+
+#: data/ui/window.ui:92
+msgid "Search for palettes"
+msgstr "Palet ara"
+
+#: data/ui/window.ui:116
+msgid "Import palette…"
+msgstr "Paleti İçe Aktar…"
+
+#: data/ui/window.ui:126
+msgid "Add palette"
+msgstr "Palet Ekle"
+
+#: data/ui/window.ui:145
+msgid "No Palettes"
+msgstr "Palet Yok"
+
+#: data/ui/window.ui:146
+msgid "Add a palette with the + button."
+msgstr "+ düğmesi ile palet ekle."
+
+#: data/ui/window.ui:219
+msgid "Pick color"
+msgstr "Renk seç"
+
+#: data/ui/window.ui:229
+msgid "Add color to this palette"
+msgstr "Bu palete renk ekle"
+
+#: src/pid.vala:103
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: src/pid.vala:106
+msgid "Picture"
+msgstr "Görüntü"
+
+#: src/window.vala:172
+msgid "Set New Palette Name"
+msgstr "Yeni Palet Adını Ayarla"
+
+#: src/window.vala:279
+#, c-format
+msgid "New Palette %d"
+msgstr "Yeni Palet %d"
+
+#: src/window.vala:295
+#, c-format
+msgid "Color %d"
+msgstr "Renk %d"
+
+#: src/window.vala:502
+msgid "Stock up on colors."
+msgstr "Renkleri stokla."
+
+#. TRANSLATORS: 'Name <email@domain.com>' or 'Name https://website.example'
+#: src/window.vala:509
+msgid "translator-credits"
+msgstr "Sabri Ünal <yakushabb@gmail.com>"
