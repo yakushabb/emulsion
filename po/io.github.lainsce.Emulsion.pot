@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.lainsce.Emulsion\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-11 21:12+0200\n"
+"POT-Creation-Date: 2024-04-22 19:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/io.github.lainsce.Emulsion.desktop.in:3
-#: data/io.github.lainsce.Emulsion.appdata.xml.in:6 src/window.vala:497
 msgid "Emulsion"
 msgstr ""
 
@@ -26,16 +25,12 @@ msgstr ""
 msgid "color;palette;library;hue;swatch;"
 msgstr ""
 
-#: data/io.github.lainsce.Emulsion.appdata.xml.in:7
+#: data/io.github.lainsce.Emulsion.metainfo.xml.in:7
 msgid "Stock up on colors"
 msgstr ""
 
-#: data/io.github.lainsce.Emulsion.appdata.xml.in:9
+#: data/io.github.lainsce.Emulsion.metainfo.xml.in:9
 msgid "Store your palettes in an easy way, and edit them if needed."
-msgstr ""
-
-#: data/io.github.lainsce.Emulsion.appdata.xml.in:18
-msgid "Lains"
 msgstr ""
 
 #: data/io.github.lainsce.Emulsion.gschema.xml:6
@@ -46,32 +41,52 @@ msgstr ""
 msgid "Whether to add the default palettes on first boot or not."
 msgstr ""
 
-#: data/ui/cep.ui:32
-msgid "Name∶"
+#: data/io.github.lainsce.Emulsion.gschema.xml:11
+msgid "Migration Version"
 msgstr ""
 
-#: data/ui/cep.ui:62
+#: data/io.github.lainsce.Emulsion.gschema.xml:12
+msgid "The version of migration to use; Do not change."
+msgstr ""
+
+#: data/ui/cep.ui:47
 msgid "RGB"
 msgstr ""
 
-#: data/ui/cep.ui:81
+#: data/ui/cep.ui:66
 msgid "Red∶"
 msgstr ""
 
-#: data/ui/cep.ui:100
+#: data/ui/cep.ui:85
 msgid "Green∶"
 msgstr ""
 
-#: data/ui/cep.ui:119
+#: data/ui/cep.ui:104
 msgid "Blue∶"
 msgstr ""
 
-#: data/ui/cep.ui:136
+#: data/ui/cep.ui:121
 msgid "Hex"
 msgstr ""
 
-#: data/ui/cep.ui:156
+#: data/ui/cep.ui:141
 msgid "Color Hexcode∶"
+msgstr ""
+
+#: data/ui/cep.ui:176
+msgid "Color Name"
+msgstr ""
+
+#: data/ui/color_menu.ui:6
+msgid "Copy Hexcode to Clipboard"
+msgstr ""
+
+#: data/ui/color_menu.ui:10
+msgid "Copy RGB to Clipboard"
+msgstr ""
+
+#: data/ui/color_menu.ui:16
+msgid "Remove Color from Palette"
 msgstr ""
 
 #: data/ui/keys.ui:12
@@ -92,11 +107,19 @@ msgstr ""
 msgid "About Emulsion"
 msgstr ""
 
-#: data/ui/pid.ui:7
-msgid " "
+#: data/ui/palet_menu.ui:6
+msgid "Copy Palette to Clipboard"
 msgstr ""
 
-#: data/ui/pid.ui:27
+#: data/ui/palet_menu.ui:10
+msgid "Copy Palette Image to Clipboard"
+msgstr ""
+
+#: data/ui/palet_menu.ui:16
+msgid "Remove Palette"
+msgstr ""
+
+#: data/ui/pid.ui:30
 msgid "Cancel"
 msgstr ""
 
@@ -105,7 +128,7 @@ msgid "Import Palette"
 msgstr ""
 
 #: data/ui/pid.ui:58
-msgid "Choose Image"
+msgid "Choose image"
 msgstr ""
 
 #: data/ui/pid.ui:84
@@ -113,70 +136,54 @@ msgid "Select an image to retrieve colors"
 msgstr ""
 
 #: data/ui/window.ui:38
-msgid "Add Palette"
+msgid "Search palette names"
 msgstr ""
 
-#: data/ui/window.ui:47
-msgid "Import Palette…"
-msgstr ""
-
-#: data/ui/window.ui:89
-msgid "Go Back to Palettes View"
-msgstr ""
-
-#: data/ui/window.ui:98
-msgid "Add Color to This Palette"
-msgstr ""
-
-#: data/ui/window.ui:132
+#: data/ui/window.ui:50
 msgid "Palettes"
 msgstr ""
 
-#: data/ui/window.ui:140
+#: data/ui/window.ui:51
+msgid "Go back to palettes"
+msgstr ""
+
+#: data/ui/window.ui:66
+msgid "Edit palette name"
+msgstr ""
+
+#: data/ui/window.ui:92
 msgid "Search for palettes"
 msgstr ""
 
-#: data/ui/window.ui:168
+#: data/ui/window.ui:116
+msgid "Import palette…"
+msgstr ""
+
+#: data/ui/window.ui:126
+msgid "Add palette"
+msgstr ""
+
+#: data/ui/window.ui:145
 msgid "No Palettes"
 msgstr ""
 
-#: data/ui/window.ui:169
+#: data/ui/window.ui:146
 msgid "Add a palette with the + button."
 msgstr ""
 
-#: data/ui/window.ui:210
-msgid "Copy Palette to Clipboard"
+#: data/ui/window.ui:219
+msgid "Pick color"
 msgstr ""
 
-#: data/ui/window.ui:214
-msgid "Copy Palette Image to Clipboard"
+#: data/ui/window.ui:229
+msgid "Add color to this palette"
 msgstr ""
 
-#: data/ui/window.ui:220
-msgid "Remove Palette"
-msgstr ""
-
-#: data/ui/window.ui:318
-msgid "Pick Color"
-msgstr ""
-
-#: data/ui/window.ui:349
-msgid "Copy Hexcode to Clipboard"
-msgstr ""
-
-#: data/ui/window.ui:353
-msgid "Copy RGB to Clipboard"
-msgstr ""
-
-#: data/ui/window.ui:359
-msgid "Remove Color from Palette"
-msgstr ""
-
-#: src/pid.vala:95
+#: src/pid.vala:103
 msgid "Import"
 msgstr ""
 
-#: src/pid.vala:98
+#: src/pid.vala:106
 msgid "Picture"
 msgstr ""
 
@@ -184,10 +191,21 @@ msgstr ""
 msgid "Set New Palette Name"
 msgstr ""
 
+#: src/window.vala:279
+#, c-format
+msgid "New Palette %d"
+msgstr ""
+
+#: src/window.vala:295
+#, c-format
+msgid "Color %d"
+msgstr ""
+
 #: src/window.vala:502
 msgid "Stock up on colors."
 msgstr ""
 
-#: src/window.vala:508
+#. TRANSLATORS: 'Name <email@domain.com>' or 'Name https://website.example'
+#: src/window.vala:509
 msgid "translator-credits"
 msgstr ""
