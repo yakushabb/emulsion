@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <menu id="pmenu">
+    <section>
+    <item>
+      <attribute name="label" translatable="yes">Copy Palette to Clipboard</attribute>
+      <attribute name="action">win.action_ex_txt</attribute>
+    </item>
+    <item>
+      <attribute name="label" translatable="yes">Copy Palette Image to Clipboard</attribute>
+      <attribute name="action">win.action_ex_png</attribute>
+    </item>
+    </section>
+    <section>
+    <item>
+      <attribute name="label" translatable="yes">Remove Palette</attribute>
+      <attribute name="action">win.delete_palette</attribute>
+    </item>
+    </section>
+  </menu>
+  <template class="GtkListItem">
+    <property name="child">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="hexpand">0</property>
+        <property name="homogeneous">0</property>
+        <property name="spacing">12</property>
+        <property name="width-request">150</property>
+        <style>
+          <class name="palette-box"/>
+        </style>
+        <child>
+          <object class="EmulsionPaletteRenderer" id="palette_renderer">
+          <binding name="palette">
+            <lookup name="item">GtkListItem</lookup>
+          </binding>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="halign">center</property>
+            <property name="width-request">260</property>
+            <property name="hexpand">0</property>
+            <child>
+              <object class="GtkLabel" id="palette_name">
+                <property name="halign">start</property>
+                <property name="margin-start">12</property>
+                <property name="hexpand">1</property>
+                <binding name="label">
+                  <lookup type="EmulsionPaletteInfo" name="palname">
+                      <lookup name="item">GtkListItem</lookup>
+                  </lookup>
+                </binding>
+                <style>
+                  <class name="eml-color-label"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuButton" id="palette_button">
+                <property name="icon-name">view-more-symbolic</property>
+                <property name="menu-model">pmenu</property>
+                <style>
+                  <class name="flat"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </property>
+  </template>
+</interface>

@@ -3,8 +3,10 @@ data/io.github.lainsce.Emulsion.metainfo.xml.in
 data/io.github.lainsce.Emulsion.gschema.xml
 
 data/ui/cep.ui
+data/ui/color_menu.ui
 data/ui/keys.ui
 data/ui/menu.ui
+data/ui/palet_menu.ui
 data/ui/pid.ui
 data/ui/window.ui
 
